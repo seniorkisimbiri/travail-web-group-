@@ -1,0 +1,59 @@
+:root{
+    --section-color:#ccffff;
+    --nav-color:#02172c;
+    --title-color:#ff9933;
+    --link-color:#66ffff;
+}
+.navbar
+{
+    background-color: var(--nav-color);
+}
+.navbar .navbar-brand,
+.navbar .navbar-nav,
+.navbar-nav .nav-link
+{
+    color: white;
+}
+.navbar .navbar-toggler
+{
+    color: white;
+    border-color: white;
+    font-size: 25px;
+}
+.navbar .navbar-toggler:focus
+{
+    box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded="true"]
+{
+    border-color: var(--green-color);
+}
+.navbar .navbar-nav,
+.navbar-nav .nav-link:hover
+{
+    color: var(--link-color);
+}
+.section
+{
+     
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url('./images/bg.png')
+     center center fixed no-repeat;
+     background-size: cover;
+    height: 400px;
+}
+.main-title
+{
+    color: var(--title-color);
+}
+.sectioin2
+{
+    background-color: var(--section-color);
+}
+.footer
+{
+    background-color: var(--nav-color);
+}
+.main{
+    background-color: var(--section-color);
+}
